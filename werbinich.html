@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" type="text/css" href="css/animations.css">
+ <link href="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.fancybox-1.3.4/jquery-1.4.3.min.js"></script>
+ <script type="text/javascript" src="js/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+ <script>
+	 $(document).ready(function() {
+
+	
+		$(".lightview").fancybox({
+			'hideOnContentClick': true,
+		'transitionIn'	:	'fade',
+		'transitionOut'	:	'fade',
+		'speedIn'		:	600, 
+		'speedOut'		:	200, 
+		'overlayShow'	:	true
+			
+		});
+
+	
+	 });
+	</script>
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="text">
+<h2>Willkommen auf meiner Homepage</h2>
+</div>
+
+<!-- Navbar -->
+<ul>
+  <li><a href="index.html">Startseite</a></li>
+  <li><a class="active" href="#">Wer bin ich?</a></li>
+  <li><a href="hobbys.html">Meine Hobbys</a></li>
+  <li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+
+
+<!-- Container Inhalt -->
+<div id="container" align="center" class="zoomInDown"> 
+<h1>Wer bin ich?</h1>
+<a>Im folgenden Absatz erzähle ich dir mehr über meine Person</a><br>
+<a></a><br><br>
+
+    <img width="270" src="img/profilbild.png">
+    <!-- Steckbrief -->
+    <div class="steckbrief">
+        
+      
+      <!-- Name -->
+      <div id="name">
+      <h3>Name:</h3><a>Kenan Yayla</a>
+      </div>
+    
+      <!-- Alter -->
+      <div id="alter">
+      <h3>Alter:</h3><a>17 Jahre</a>
+      </div>
+        
+      <!-- Email -->
+      <div id="email">
+      <h3>Email:</h3><a>kontakt@kenan-yayla.de</a>
+      </div>
+        
+      <!-- Geburtag -->
+      <div id="geburtstag">
+      <h3>Geboren:</h3><a>2001</a>
+      </div>
+	  
+	  <!-- Nationalität -->
+      <div id="nationalitaet">
+      <h3>Nationalität:</h3><a>Deutsch</a>
+      </div>
+        
+      <!-- Lieblingsfarbe -->
+      <div id="lieblingsfarbe">
+      <h3>Lieblingsfarbe:</h3><a>Rot</a>
+      </div>
+	  
+	  <!-- Lieblingsessen -->
+      <div id="lieblingsessen">
+      <h3>Lieblingsessen:</h3><a>Für mehr Informationen, </a><a class="lightview" href="#data2">klicke hier</a>
+      </div>
+		
+	  <div style="display:none">
+	   <div id="data2">
+			 <h3>Lieblingsessen:</h3><br><br>
+		     <a>Mein Lieblingsessen ist Döner. Nicht nur weil ich Türke bin, sondern weil es einfach schmeckt.</a><br>
+		     <img src="img/döner.jpg" width="250" height="250">
+		 </div>
+	  </div>
+	  
+	  <div id="lieblingstier">
+      <h3>Lieblingstier:</h3><a>Für mehr Informationen, </a><a class="lightview" href="#data">klicke hier</a>
+      </div>
+	  <!-- lightview -->
+	 <div style="display:none">
+	   <div id="data">
+			 <h3>Lieblingstier:</h3><br><br>
+		     <a>Mein Lieblingstier ist der Hund. Der beste Freund des Menschen.</a><br><br>
+		   <img src="img/hund.png" width="500" height="500">
+		 </div>
+	  </div>
+		
+    
+      <!-- Traumberuf -->
+      <div id="traumberuf">
+      <h3>Traumberuf:</h3><a>Fachinformatiker Anwendungsentwicklung</a>
+      </div>
+        
+      <!-- Hobbys -->
+      <div id="hobbys">
+      <h3>Hobbys:</h3><a>Meine Hobbys findest du </a><a href="hobbys.html">hier</a>
+      </div>
+    </div><br><br><br><br>
+    
+    <h1>Noch nicht genug?</h1>
+    <a>Ich habe übrigens eine eigene Webseite!</a>
+    <br>
+    <a target="_blank" href="http://kenan-yayla.de" class="button">KLICK HIER</a>
+    <div style="clear: left;"><!-- --></div>
+</div>
+    
+    
+</body>
+    
+    
+<!-- Footer -->
+<footer class="footer-basic-centered"><p class="footer-company-name">Kenan Yayla &copy; 2018</p></footer>
+</html>
